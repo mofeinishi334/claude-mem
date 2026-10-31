@@ -12,7 +12,9 @@ dist/
 .install-version
 .claude/settings.local.json
 .claude/agents/
-.claude/skills/
+.claude/skills/*
+!.claude/skills/humanizer-zh/
+!.claude/skills/agent-reach/
 .claude/plans/
 .claude/worktrees/
 plugin/data/
